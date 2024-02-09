@@ -1,0 +1,85 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(45deg, rgb(131, 247, 119), rgb(245, 251, 48));
+    background: -moz-linear-gradient(45deg, rgb(131, 247, 119), rgb(245, 251, 48));
+    background: linear-gradient(45deg, rgb(131, 247, 119), rgb(245, 251, 48));
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.best{
+    width: 500px;
+    height: 340px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 1px 2px 49px 2px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 1px 2px 49px 2px rgba(34, 60, 80, 0.2);
+box-shadow: 1px 2px 49px 2px rgba(34, 60, 80, 0.2);
+background-color: #ffffff;
+}
+.best img{
+    width: 210px;
+    height: 340px;
+    border-radius: 30px 0px 0px 30px;
+    object-fit: cover;
+}
+.user-logo img{
+    position: absolute;
+    right: 250px;
+    bottom: 220px;
+    width: 80px;
+    height: 80px;
+    border: 7px solid #fff;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(45deg, rgb(185, 239, 123), rgb(99, 234, 38));
+background: -moz-linear-gradient(45deg, rgb(185, 239, 123), rgb(99, 234, 38));
+background: linear-gradient(45deg, rgb(185, 239, 123), rgb(99, 234, 38));
+}
+.user-logo img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.user-logo span{
+    color: green;
+    position: absolute;
+    left: 160px;
+    bottom: 260px;
+    font-style: italic;
+}
+.best-text{
+    padding: 30px;
+    position: relative;
+}
+.best-text h2,p{
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.best-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-left: -56px;
+    margin-top: 20px;
+    
+}
+.best-icon i{
+    font-size: 24px;
+}
+.best-icon i:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
